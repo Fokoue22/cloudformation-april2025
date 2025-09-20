@@ -13,9 +13,9 @@ If you’re looking to deploy a web application with a database on AWS without b
 * we will add SSH to our Security Group in the template that was provided
 ![Alt text](images/step1.png)
 
-``
+```
 aws cloudformation create-stack --stack-name my-stack --template-body file://CFN-Template.yaml --region <your-region> --capabilities CAPABILITY_IAM
-``
+```
 
 # STEPS BY STEPS PROCESS 
 
